@@ -13,5 +13,5 @@ function getCount(str) {
     u: 'u',
   }
 
-  return str.split().filter(letter => Boolean(letters[letter])).length;
+  return str.filter(letter => Boolean(letters[letter])).length;
 }
